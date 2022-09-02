@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display property</title>
+    <style>
+        /* sudhu block element er width set kora jai and margin auto diye centre kora jai, inline element er jai nah */
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            border: 2px solid red;
+            margin: auto;
+            width: 1200px;
+        }
+        img{
+            margin: auto;
+            display: block;
+            width: 34px;
+        }
+        h3{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin:0px;
+        }
+        .box{
+            border: 4px solid black;
+            background-color: grey;
+            margin:4px 0px;
+            padding: 23px;
+            width: 33%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .container{
+            margin: auto;
+            width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://www.codewithharry.com/img/logo-blue.png" alt="">
+        <h3>Welocome to EliteDevloper's Blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4 class="heading"></h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae blanditiis, illo similique provident iure corrupti, voluptates est impedit perferendis doloribus asperiores ipsam quos obcaecati fugit sapiente saepe ipsa consequuntur accusantium quasi aperiam nemo perspiciatis dolor assumenda. Quis ducimus explicabo, numquam accusantium optio nulla quasi.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading"></h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae blanditiis, illo similique provident iure corrupti, voluptates est impedit perferendis doloribus asperiores ipsam quos obcaecati fugit sapiente saepe ipsa consequuntur accusantium quasi aperiam nemo perspiciatis dolor assumenda. Quis ducimus explicabo, numquam accusantium optio nulla quasi.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading"></h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae blanditiis, illo similique provident iure corrupti, voluptates est impedit perferendis doloribus asperiores ipsam quos obcaecati fugit sapiente saepe ipsa consequuntur accusantium quasi aperiam nemo perspiciatis dolor assumenda. Quis ducimus explicabo, numquam accusantium optio nulla quasi.</p>
+        </div>
+    </div>
+</body>
+</html>
