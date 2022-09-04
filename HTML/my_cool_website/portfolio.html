@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- This is DPR and low quality image technique: -->
+    <!-- <img width="100%" srcset="images/1x.jpg,
+    images/2x.jpg, 
+    images/3x.jpg" src="images/3x.jpg" alt="gym photo"> -->
+
+
+    <!-- The art direction problem by croping images: -->
+    <!-- Art Direction Problem involves displaying different images for different screen sizes focussing on the important part of the image rather than just changing the resolution of the image. -->
+
+    <img width="100%"
+    srcset="images/desktop.jpg 1000w,
+    images/greenVally.png 800w,
+    images/phone.jpg 500w"
+    sizes="(max-width: 500px) 500px,
+    (max-width: 800px) 800px,
+    1000px"
+    src="3x.jpg" alt="gym photo">
+</body>
+
+</html>
